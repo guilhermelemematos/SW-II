@@ -1,0 +1,65 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "teste da API",
+    "dateExported": "2024-08-05T13:54:05.368Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "83223721-7586-4a0e-9152-d6b851a302b2",
+            "colId": "667fdaa1-7fbf-4b1b-a0eb-f4922c3eac06",
+            "containerId": "",
+            "name": "Teste de requisição GET",
+            "url": "https://localhost/exercicio/api.php/alunos/3",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-05T12:28:52.155Z",
+            "modified": "2024-08-05T13:42:45.918Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "299ea920-67ee-4be6-bf19-8b2b4c1be684",
+            "colId": "667fdaa1-7fbf-4b1b-a0eb-f4922c3eac06",
+            "containerId": "",
+            "name": "Teste de requisição POST",
+            "url": "https://localhost/exercicio/api.php",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-05T12:31:35.688Z",
+            "modified": "2024-08-05T12:32:23.928Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7a7706fd-0640-4643-a32c-b1b3c2f251dd",
+            "colId": "667fdaa1-7fbf-4b1b-a0eb-f4922c3eac06",
+            "containerId": "",
+            "name": "Teste de requisição PUT",
+            "url": "https://localhost/exercicio/api.php",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-08-05T12:31:38.037Z",
+            "modified": "2024-08-05T12:32:25.479Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c22786d9-a9d2-4b2b-82dc-a649586a9ca7",
+            "colId": "667fdaa1-7fbf-4b1b-a0eb-f4922c3eac06",
+            "containerId": "",
+            "name": "Teste de requisição DELETE",
+            "url": "https://localhost/exercicio/api.php",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-08-05T12:31:41.910Z",
+            "modified": "2024-08-05T12:32:27.168Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
