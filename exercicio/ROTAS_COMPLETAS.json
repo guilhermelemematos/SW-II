@@ -1,0 +1,252 @@
+{
+    "info": {
+        "_postman_id": "6895e482-02f8-4592-86a7-cf0c1a314ef5",
+        "name": "teste api",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "LISTA TODOS OS ALUNOS",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/alunos",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "alunos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "INSERE CURSO",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/cursos",
+                    "query": [
+                        {
+                            "key": "nome_curso",
+                            "value": "CULINÁRIA",
+                            "disabled": true
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "cursos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"nome_curso\":\"GASTRONOMIA\"\n}"
+                }
+            }
+        },
+        {
+            "name": "ATUALIZA UM ALUNO PELO ID",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/alunos",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "alunos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"id\":4,\n  \"nome_novo\": \"GODOFREDO DA SILVA\",\n  \"email_novo\": \"godofredo@email.com\"\n}"
+                }
+            }
+        },
+        {
+            "name": "REMOVE UM ALUNO",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/alunos",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "alunos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"id\":4\n}"
+                }
+            }
+        },
+        {
+            "name": "LISTA TODOS OS CURSOS",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/cursos",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "cursos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "LISTA UM ALUNO POR ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/alunos/4",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "alunos",
+                        "4"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "LISTA UM CURSO POR ID",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/cursos/3",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "cursos",
+                        "3"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "INSERE ALUNO",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/alunos",
+                    "query": [
+                        {
+                            "key": "nome_curso",
+                            "value": "CULINÁRIA",
+                            "disabled": true
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "alunos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"nome\":\"GODOFREDO\",\n  \"email\":\"godo@email.com\",\n  \"fk_cursos_id_curso\":6\n}"
+                }
+            }
+        },
+        {
+            "name": "ATUALIZA UM CURSO PELO ID",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/cursos",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "cursos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"id_curso\":1,\n  \"nome_curso_novo\": \"INFORMÁTICA PARA INTERNET\"\n}"
+                }
+            }
+        },
+        {
+            "name": "REMOVE UM CURSO",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "localhost/exercicio/api.php/cursos",
+                    "path": [
+                        "exercicio",
+                        "api.php",
+                        "cursos"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"id_curso\":2\n}"
+                }
+            }
+        }
+    ]
+}

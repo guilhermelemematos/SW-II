@@ -1,0 +1,59 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Teste da API",
+    "collectionId": "5ac16741-b33d-4e7e-b4a3-27b5a8ee27b7",
+    "dateExported": "2024-08-05T13:53:33.672Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "24929575-c3ec-4ab0-b19e-c1d8752ca37c",
+            "colId": "5ac16741-b33d-4e7e-b4a3-27b5a8ee27b7",
+            "containerId": "",
+            "name": "Teste requisição GET",
+            "url": "http://localhost/exercicio/api.php/cursos/3",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-05T12:28:50.426Z",
+            "modified": "2024-08-05T13:42:45.060Z",
+            "headers": []
+        },
+        {
+            "_id": "5906b419-20d6-4fe6-9002-3df93880f3a9",
+            "colId": "5ac16741-b33d-4e7e-b4a3-27b5a8ee27b7",
+            "containerId": "",
+            "name": "Teste requisição POST",
+            "url": "http://localhost/exercicio/api.php/cursos/3",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-05T12:29:32.944Z",
+            "modified": "2024-08-05T13:43:03.035Z",
+            "headers": []
+        },
+        {
+            "_id": "736c682b-58d1-4651-ae10-1b1a36b1cb5b",
+            "colId": "5ac16741-b33d-4e7e-b4a3-27b5a8ee27b7",
+            "containerId": "",
+            "name": "Teste requisição PUT",
+            "url": "http://localhost/exercicio/api.php",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-08-05T12:29:36.079Z",
+            "modified": "2024-08-05T12:30:06.198Z",
+            "headers": []
+        },
+        {
+            "_id": "7333f897-f27a-4155-8de7-8d187d06d2a0",
+            "colId": "5ac16741-b33d-4e7e-b4a3-27b5a8ee27b7",
+            "containerId": "",
+            "name": "Teste requisição DELETE",
+            "url": "http://localhost/exercicio/api.php",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-08-05T12:29:38.671Z",
+            "modified": "2024-08-05T12:30:21.381Z",
+            "headers": []
+        }
+    ],
+    "ref": "l9zcvqkVcx7YRIpXZd16Hz1DZ8TW5KOg0OXkHz3sZN8khtzca9vP3zDkvLVNUvEIA5pRISs7eekeK9176PuNJw"
+}
